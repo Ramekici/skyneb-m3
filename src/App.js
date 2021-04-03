@@ -5,6 +5,7 @@ import LeftPaneUp from './components/left-pane/LeftPaneUp';
 import MarketNews from './components/left-pane/MarketNews';
 import Orderbook from './components/right-pane/Orderbook';
 import Orders from './components/middle/Orders';
+import RightBott from './components/right-pane/RightBott';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         </div>
         <div className="right-pane">
           <Orderbook/>
+          <RightBott/>
         </div>
       </div>
     </div>
