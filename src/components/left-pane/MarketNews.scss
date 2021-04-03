@@ -1,0 +1,31 @@
+.market-news-container{
+    color: white;
+    border: 1px solid #2A2E39;
+    .market-news-up-title{
+        font-size: 0.65rem;
+        padding: 0.1rem 0.3rem;
+        margin:0;
+    }
+    .market-news{
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid gray;
+        margin: 0.1rem .3rem;
+        .market-news-title{
+            font-size: .5rem;
+            margin: .05rem;
+            padding: .1rem;
+        }
+        .market-news-parag{
+            font-size: .35rem;
+            padding: .1rem;
+            margin: 0;
+            line-height: 1.2;
+        }
+        .market-news-date{
+            font-size: .35rem;
+            padding: .1rem;
+            margin-bottom: .2rem;
+        }
+    }
+}

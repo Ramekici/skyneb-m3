@@ -1,0 +1,37 @@
+.left-pane-up{
+    color: rgb(170, 168, 168);
+    border: 1px solid #2A2E39;
+    .left-pane-table-up{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        overflow: hidden;
+        background-color: #1C2031;
+        padding: 0 0.1rem;
+        .left-pane-table-button{
+            background-color: inherit;
+            border: none;
+            color: white;
+            font-size: 0.6rem;
+        }
+    }
+
+
+    .left-pane-table{
+        width: 100%;
+        .left-pane-row{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #2A2E39;
+            .left-pane-column{
+                width: 33%;
+                color: white;
+                font-size: 0.6rem;
+                text-align: center;
+            }
+        }
+
+    }
+
+}

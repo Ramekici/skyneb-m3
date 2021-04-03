@@ -1,0 +1,26 @@
+.order-book{
+    color: white;
+    box-sizing: border-box;
+    border: 1px solid #2A2E39;
+    .order-book-title{
+        font-size: 0.65rem;
+        margin: 0 0.1rem;
+        padding: 0.2rem 1rem;
+    }
+    .order-book-table{
+        width: 100%;
+        .order-book-row{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #2A2E39;
+            .order-book-column{
+                width: 33%;
+                font-size: .5rem;
+                text-align: center;
+                margin: auto;
+            }
+        }
+    }
+}
+

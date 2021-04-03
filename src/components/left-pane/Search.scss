@@ -1,0 +1,16 @@
+.search-container{
+    padding: 0.3rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    .input-group{
+        width: 100%;
+        .input-search{
+            width: 100%;
+            background-color: inherit;
+            cursor: pointer;
+            &:focus{
+                outline-color: invert;
+            }
+        }
+    }  
+}
