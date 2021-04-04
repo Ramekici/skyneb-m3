@@ -24,7 +24,7 @@ export default function Orders() {
             </div>
             <div className="table-row">
                 {items.map(item =>
-                    <div className="table-column text-muted">
+                    <div className="table-column text-muted" key={item.id}>
                         {item.name}
                     </div>
                 )}
